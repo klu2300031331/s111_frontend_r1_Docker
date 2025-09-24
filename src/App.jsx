@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     // ✅ basename must match the Vite base and Tomcat path
-    <BrowserRouter basename="/frontapp1">
+    <BrowserRouter basename="/ecommerce">
       <Routes>
         <Route path="/" element={<Home2 />} />
         <Route path="/login" element={<Login formData={formData} setFormData={setFormData} />} />
